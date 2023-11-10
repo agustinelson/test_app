@@ -34,7 +34,7 @@ def optimize_circuit(hamiltonian):
     #opt=qml.QNGOptimizer(stepsize=0.01, approx='block-diag', lam=1)
 
 # set the number of steps
-    steps = 3000
+    steps = 100
 
 # set the initial parameter values
     params = w
