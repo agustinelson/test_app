@@ -46,7 +46,7 @@ def optimize_circuit(hamiltonian):
         if (cost(params) - 0.61745341) < 1e-9:
           print('Step_size {} : Cost{:.8f}'.format(i, cost(params)))
           break
-
+return cost(params)
 
 in1=np.array([0.863327072347624,0.0167108057202516,0.07991447085492759,0.0854049026262154,
               0.0167108057202516,0.8237963773906136,-0.07695947154193797,0.03131548733285282,
